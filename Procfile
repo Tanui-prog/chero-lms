@@ -1,1 +1,1 @@
-web gunicorn chero-lms.wsgi:application --log-file -
+web gunicorn lms.wsgi:application --log-file -
